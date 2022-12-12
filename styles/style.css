@@ -9,8 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-  .header {
-    display: flex;
+.header {
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -18,8 +18,6 @@
   background-color: white;
   /* выше установили ограничения для секции */
 }
-
-
 
 .logo {
   width: 228px;
@@ -36,30 +34,23 @@
   background-size: contain;
   z-index: 2;
 }
-  
 
-.header_title{
+.header_title {
   display: flex;
   align-self: center;
   margin-left: 64px;
   width: 730px;
-
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-
-   
   z-index: 3;
 }
 
-.header_subtitle{
+.header_subtitle {
   position: absolute;
-  /* margin: 0 auto; */
-  
   max-width: 388px;
   left: 64px;
   bottom: 30px;
-
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -71,29 +62,16 @@
   text-decoration: none;
 }
 
-
-.header__main-illustration{
+.header__main-illustration { 
   position: absolute;
   object-fit: cover;
   width: 765px;
   height: 608px;
-
   bottom: 0;
   right: 0;
   z-index: 1;
-  }
-
-/* .wrap{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.wrap img{
-  height: 100%;
-  width: 100%;
-} */
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   
@@ -101,7 +79,6 @@
   width: 568px;
   top: 64px;
   right: 0;
-
   background-color: blue;
   z-index: 0;
 }
@@ -122,11 +99,9 @@
 .two-columns__brief {
   width: 175px;
   color: blue;
-
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-
   margin: 0;
 }
 
@@ -148,8 +123,6 @@
   font-weight: 600;
 }
 
-
-
 .digits {
   display: flex;
   flex-direction: column;
@@ -162,14 +135,11 @@
   width: 60%;
   text-align: center;
   justify-content: center;
-  
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  
   padding: 0px;
   margin: 0px;
-
   z-index: 1;
 }
 
@@ -178,7 +148,6 @@
   justify-content: center;
   display: flex;
   margin: 20px auto 0;
-
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -206,7 +175,6 @@
 
 .table__text {
   margin: 20px 0 0;
-
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -217,11 +185,9 @@
   background-position: left bottom;
   background-size: 867px 637px;
   padding-top: 100px;
-
   height: 890px;
   display: flex;
   flex-direction: column;
-  
   background-repeat: no-repeat;
   align-items: center;
   justify-content: flex-start;
@@ -231,7 +197,6 @@
 .feynman__title {
   width: 648px;
   text-align: center;
- 
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -243,7 +208,6 @@
   font-size: 36px;
   font-weight: normal;
   text-align: center;
-
   margin: 0px;
   padding: 0px;
   margin-top: 70px;
@@ -252,7 +216,6 @@
 .feynman__link {
   position: absolute;
   top: 50%;
-
   right: 48px;
   line-height: 51px;
   font-size: 36px;
@@ -279,7 +242,7 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-  background-image: url("/images/kaufman-triangle.svg");
+  background-image: url("../images/kaufman-triangle.svg");
   background-size: cover;
   position: absolute;
   top: 0;
